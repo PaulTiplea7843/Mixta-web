@@ -1,0 +1,34 @@
+/* @media sreen and (min-width: 900px) { */
+.modal-content {
+  width: var(--width, 100%);
+}
+.modal-content {
+  width: 60vw !important;
+  height: 100%;
+}
+.modal-dialog {
+  width: 1000px;
+  margin: auto;
+  margin: 0px;
+  margin-left: 20vw;
+}
+/* } */
+
+@media screen and (max-width: 900px) {
+  .modal-content {
+    width: 100vw !important;
+    min-height: 100vh !important;
+    height: 100%;
+  }
+  .modal-dialog {
+    width: 1000px;
+    margin: auto;
+    margin: 0px;
+    margin-left: 0vw;
+    padding: 0px;
+  }
+  .fade {
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+}

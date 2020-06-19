@@ -1,0 +1,18 @@
+.styles_react-code-input__CRulA {
+  width: 300px;
+  margin-right: 0px !important;
+}
+
+.styles_react-code-input-container__tpiKG {
+  width: 300px !important;
+  margin: auto !important;
+}
+
+input[type="tel"] {
+  border-radius: 60px !important;
+  background-color: #6b6b6b;
+  border: 1px solid white !important;
+  margin-right: 5px;
+  color: #f2a83b !important;
+  font-size: 25px !important;
+}
